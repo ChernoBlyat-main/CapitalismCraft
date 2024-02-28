@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "capitalismcraft:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "capitalismcraft:sapphire",
+    "count": 9
+  }
+}
