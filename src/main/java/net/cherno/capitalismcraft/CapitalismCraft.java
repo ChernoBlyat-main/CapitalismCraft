@@ -1,6 +1,7 @@
 package net.cherno.capitalismcraft;
 
 import com.mojang.logging.LogUtils;
+import net.cherno.capitalismcraft.block.ModBlocks;
 import net.cherno.capitalismcraft.item.ModCreativeModTabs;
 import net.cherno.capitalismcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,6 +34,7 @@ public class CapitalismCraft {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
