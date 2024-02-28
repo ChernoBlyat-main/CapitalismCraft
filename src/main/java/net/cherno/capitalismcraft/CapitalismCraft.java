@@ -1,6 +1,7 @@
 package net.cherno.capitalismcraft;
 
 import com.mojang.logging.LogUtils;
+import net.cherno.capitalismcraft.item.ModCreativeModTabs;
 import net.cherno.capitalismcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -29,6 +30,8 @@ public class CapitalismCraft {
     public CapitalismCraft() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
@@ -46,6 +49,7 @@ public class CapitalismCraft {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.RAW_SAPPHIRE);
         }
     }
 

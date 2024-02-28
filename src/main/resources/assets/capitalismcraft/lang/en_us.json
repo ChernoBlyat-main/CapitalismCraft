@@ -1,3 +1,6 @@
 {
-  "item.capitalismcraft.sapphire": "Sapphire"
+  "item.capitalismcraft.sapphire": "Sapphire",
+  "item.capitalismcraft.raw_sapphire": "Raw Sapphire",
+
+  "creativetab.capitalismcraft_tab": "Creative Craft Tab"
 }
