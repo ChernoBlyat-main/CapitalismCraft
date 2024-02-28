@@ -5,5 +5,10 @@
   "block.capitalismcraft.sapphire_block": "Sapphire Block",
   "block.capitalismcraft.raw_sapphire_block": "Raw Sapphire Block",
 
+  "block.capitalismcraft.sapphire_ore": "Sapphire Ore",
+  "block.capitalismcraft.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.capitalismcraft.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.capitalismcraft.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
   "creativetab.capitalismcraft_tab": "Capitalism Craft Tab"
 }
