@@ -4,6 +4,10 @@
 
   "item.capitalismcraft.metal_detector":  "Metal Detector",
 
+  "item.capitalismcraft.pine_cone": "Pine Cone",
+
+  "item.capitalismcraft.strawberry": "Strawberry",
+
   "block.capitalismcraft.sapphire_block": "Sapphire Block",
   "block.capitalismcraft.raw_sapphire_block": "Raw Sapphire Block",
 
@@ -13,6 +17,8 @@
   "block.capitalismcraft.end_stone_sapphire_ore": "Endstone Sapphire Ore",
 
   "block.capitalismcraft.sound_block": "Sound Block",
+
+  "tooltip.capitalismcraft.metal_detector.tooltip": "Finds valuables underground!",
 
   "creativetab.capitalismcraft_tab": "Capitalism Craft Tab"
 }
