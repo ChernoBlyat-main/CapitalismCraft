@@ -32,6 +32,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         this.add(ModBlocks.SAPPHIRE_ORE.get(),
             block -> createGenericOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(),
+                block -> createGenericOreDrops(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.NETHER_SAPPHIRE_ORE.get(),
+                block -> createGenericOreDrops(ModBlocks.NETHER_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
+        this.add(ModBlocks.END_STONE_SAPPHIRE_ORE.get(),
+                block -> createGenericOreDrops(ModBlocks.END_STONE_SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));
     }
 
     protected LootTable.Builder createGenericOreDrops(Block pBlock, Item item) {
