@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "capitalismcraft:block/end_stone_sapphire_ore"
+  }
+}

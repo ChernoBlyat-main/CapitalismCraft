@@ -1,0 +1,8 @@
+// 1.20.2	2024-02-29T22:18:08.8762353	Tags for minecraft:block mod id capitalismcraft
+b1cf88abd09992bfedf13f7b402a2db089e9a6b3 data/capitalismcraft/tags/blocks/metal_detector_valuables.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+4f4543e74503444be44fb33d7c577e1d2f2a3af1 data/minecraft/tags/blocks/mineable/axe.json
+ee986432b07606ed235c5a81f60f2fbaffdfc15b data/minecraft/tags/blocks/mineable/pickaxe.json
+a7616cfc1bb3569697d1094dc40813c7dae811c4 data/minecraft/tags/blocks/needs_diamond_tool.json
+ab4cc3551a022d9fb3ffbb2a4fb8704cb3f58086 data/minecraft/tags/blocks/needs_iron_tool.json
+48bd47a900775d123f76e9ad59d36a42a5d492de data/minecraft/tags/blocks/needs_stone_tool.json
